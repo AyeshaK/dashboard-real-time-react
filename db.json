@@ -1,0 +1,517 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Alice Johnson",
+      "email": "alice@example.com",
+      "role": "admin",
+      "createdAt": "2025-01-01T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "name": "Bob Martin",
+      "email": "bob@example.com",
+      "role": "customer",
+      "createdAt": "2025-01-05T09:30:00Z"
+    },
+    {
+      "id": "3",
+      "name": "Charlie Davis",
+      "email": "charlie@example.com",
+      "role": "customer",
+      "createdAt": "2025-01-12T14:15:00Z"
+    },
+    {
+      "id": "5780",
+      "name": "Ayesha Karim",
+      "email": "ayeshakarim90@gmail.com",
+      "role": "admin"
+    },
+    {
+      "id": "b0bd",
+      "name": "Kent",
+      "email": "Kent@gmail.com",
+      "role": "customer"
+    },
+    {
+      "id": "b2e4",
+      "name": "syed",
+      "email": "syed@gmail.com",
+      "role": "customer"
+    },
+    {
+      "id": "64dd",
+      "name": "Test user",
+      "email": "test@gmail.com",
+      "role": "admin"
+    }
+  ],
+  "products": [
+    {
+      "name": "bracelet",
+      "price": 50000,
+      "stock": 100,
+      "category": "Accessories",
+      "id": "101"
+    },
+    {
+      "id": "102",
+      "name": "Smartwatch",
+      "price": 199.99,
+      "stock": 30,
+      "category": "Electronics",
+      "createdAt": "2025-01-15T12:30:00Z"
+    },
+    {
+      "id": "103",
+      "name": "Running Shoes",
+      "price": 75,
+      "stock": 100,
+      "category": "Sportswear",
+      "createdAt": "2025-01-20T16:45:00Z"
+    },
+    {
+      "id": "c5c4",
+      "name": "bracelet",
+      "price": 50000,
+      "stock": 10,
+      "category": "Accessories",
+      "createdAt": "2025-11-18T21:39:42.159Z"
+    },
+    {
+      "name": "Car",
+      "price": 5500000,
+      "stock": 10,
+      "category": "Sportswear",
+      "id": "c9ba"
+    },
+    {
+      "id": "ba81",
+      "name": "Car",
+      "price": 5500000,
+      "stock": 5,
+      "category": "Sportswear",
+      "createdAt": "2025-11-18T21:44:52.025Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "5001",
+      "customerName": "Bob Martin",
+      "amount": 240.75,
+      "status": "pending",
+      "createdAt": "2025-01-15T15:30:00Z",
+      "products": [
+        {
+          "productId": "101",
+          "quantity": 2
+        },
+        {
+          "productId": "103",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5002",
+      "customerName": "Charlie Davis",
+      "amount": 199.99,
+      "status": "shipped",
+      "createdAt": "2025-04-19T11:00:00Z",
+      "products": [
+        {
+          "productId": "102",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5003",
+      "customerName": "Alice Johnson",
+      "amount": 75,
+      "status": "delivered",
+      "createdAt": "2025-01-22T09:45:00Z",
+      "products": [
+        {
+          "productId": "103",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5004",
+      "customerName": "David Lee",
+      "amount": 325.5,
+      "status": "delivered",
+      "createdAt": "2025-02-05T14:15:00Z",
+      "products": [
+        {
+          "productId": "101",
+          "quantity": 1
+        },
+        {
+          "productId": "104",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "5005",
+      "customerName": "Sarah Kim",
+      "amount": 129.99,
+      "status": "pending",
+      "createdAt": "2025-03-03T10:20:00Z",
+      "products": [
+        {
+          "productId": "102",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5006",
+      "customerName": "Michael Green",
+      "amount": 410,
+      "status": "shipped",
+      "createdAt": "2025-03-25T18:45:00Z",
+      "products": [
+        {
+          "productId": "105",
+          "quantity": 2
+        },
+        {
+          "productId": "103",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "5007",
+      "customerName": "Evelyn Carter",
+      "amount": 85.99,
+      "status": "delivered",
+      "createdAt": "2025-02-14T13:30:00Z",
+      "products": [
+        {
+          "productId": "103",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "5008",
+      "customerName": "Jason Brown",
+      "amount": 560.4,
+      "status": "delivered",
+      "createdAt": "2025-04-01T08:20:00Z",
+      "products": [
+        {
+          "productId": "106",
+          "quantity": 2
+        },
+        {
+          "productId": "101",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5009",
+      "customerName": "Olivia Moore",
+      "amount": 49.99,
+      "status": "pending",
+      "createdAt": "2025-02-28T17:05:00Z",
+      "products": [
+        {
+          "productId": "107",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5010",
+      "customerName": "Henry Wilson",
+      "amount": 279.5,
+      "status": "shipped",
+      "createdAt": "2025-03-12T12:10:00Z",
+      "products": [
+        {
+          "productId": "102",
+          "quantity": 1
+        },
+        {
+          "productId": "104",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "5011",
+      "customerName": "Sophia Turner",
+      "amount": 649,
+      "status": "delivered",
+      "createdAt": "2025-04-15T09:10:00Z",
+      "products": [
+        {
+          "productId": "108",
+          "quantity": 1
+        },
+        {
+          "productId": "105",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5012",
+      "customerName": "James White",
+      "amount": 120,
+      "status": "pending",
+      "createdAt": "2025-01-10T16:55:00Z",
+      "products": [
+        {
+          "productId": "103",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "5013",
+      "customerName": "Amelia Parker",
+      "amount": 540,
+      "status": "shipped",
+      "createdAt": "2025-03-29T14:50:00Z",
+      "products": [
+        {
+          "productId": "101",
+          "quantity": 2
+        },
+        {
+          "productId": "106",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5014",
+      "customerName": "Robert King",
+      "amount": 89.5,
+      "status": "delivered",
+      "createdAt": "2025-02-08T11:00:00Z",
+      "products": [
+        {
+          "productId": "103",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "5015",
+      "customerName": "Isabella Clark",
+      "amount": 310.75,
+      "status": "shipped",
+      "createdAt": "2025-01-30T10:40:00Z",
+      "products": [
+        {
+          "productId": "105",
+          "quantity": 1
+        },
+        {
+          "productId": "102",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5016",
+      "customerName": "Daniel Scott",
+      "amount": 59.99,
+      "status": "pending",
+      "createdAt": "2025-03-18T15:25:00Z",
+      "products": [
+        {
+          "productId": "107",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "5017",
+      "customerName": "Grace Hall",
+      "amount": 430,
+      "status": "delivered",
+      "createdAt": "2025-04-22T13:55:00Z",
+      "products": [
+        {
+          "productId": "108",
+          "quantity": 1
+        },
+        {
+          "productId": "101",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5018",
+      "customerName": "Kevin Young",
+      "amount": 220.5,
+      "status": "shipped",
+      "createdAt": "2025-02-20T09:30:00Z",
+      "products": [
+        {
+          "productId": "104",
+          "quantity": 1
+        },
+        {
+          "productId": "106",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5019",
+      "customerName": "Emma Lopez",
+      "amount": 95,
+      "status": "delivered",
+      "createdAt": "2025-01-17T14:05:00Z",
+      "products": [
+        {
+          "productId": "103",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "5020",
+      "customerName": "Liam Baker",
+      "amount": 389,
+      "status": "pending",
+      "createdAt": "2025-04-05T10:15:00Z",
+      "products": [
+        {
+          "productId": "101",
+          "quantity": 2
+        },
+        {
+          "productId": "105",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "totalUsers": 3,
+    "totalRevenue": 515.74,
+    "activeOrders": 1,
+    "lowStockProducts": 1,
+    "salesTrend": [
+      {
+        "month": "Jan",
+        "value": 12000
+      },
+      {
+        "month": "Feb",
+        "value": 15000
+      },
+      {
+        "month": "Mar",
+        "value": 18000
+      },
+      {
+        "month": "Apr",
+        "value": 11000
+      }
+    ],
+    "ordersByStatus": [
+      {
+        "status": "Delivered",
+        "value": 75
+      },
+      {
+        "status": "Pending",
+        "value": 15
+      },
+      {
+        "status": "Cancelled",
+        "value": 10
+      }
+    ],
+    "topProducts": [
+      {
+        "product": "Wireless Headphones",
+        "sales": 2
+      },
+      {
+        "product": "Smartwatch",
+        "sales": 1
+      },
+      {
+        "product": "Running Shoes",
+        "sales": 2
+      }
+    ],
+    "dailyActiveUsers": [
+      {
+        "day": "Mon",
+        "value": 300
+      },
+      {
+        "day": "Tue",
+        "value": 350
+      },
+      {
+        "day": "Wed",
+        "value": 420
+      },
+      {
+        "day": "Thu",
+        "value": 410
+      },
+      {
+        "day": "Fri",
+        "value": 500
+      }
+    ],
+    "salesByCategory": [
+      {
+        "category": "Electronics",
+        "sales": 3400
+      },
+      {
+        "category": "Clothing",
+        "sales": 2100
+      },
+      {
+        "category": "Accessories",
+        "sales": 1800
+      },
+      {
+        "category": "Home",
+        "sales": 2600
+      }
+    ],
+    "inventoryAlerts": [
+      {
+        "id": 1,
+        "product": "iPhone 14",
+        "stock": 4
+      },
+      {
+        "id": 2,
+        "product": "MacBook Air",
+        "stock": 2
+      },
+      {
+        "id": 3,
+        "product": "AirPods",
+        "stock": 20
+      },
+      {
+        "id": 4,
+        "product": "Monitor",
+        "stock": 5
+      }
+    ]
+  }
+}
